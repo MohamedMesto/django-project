@@ -22,7 +22,7 @@ from hello_world import views as index_views
 from about import views as about_views
 from contact import views as contact_views
 from products import views as products_views
-from products import views as catalogue_views
+from catalogue import views as catalogue_views
 
 urlpatterns = [
     path('hello/', index_views.index, name='index'),
